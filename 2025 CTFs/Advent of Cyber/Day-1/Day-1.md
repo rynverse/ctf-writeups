@@ -1,4 +1,4 @@
-# Day 1 Advent of Cyber Write- - Linux CLI
+# Day 1 Advent of Cyber Write Up - Linux CLI
 
 ## Overview 
 
