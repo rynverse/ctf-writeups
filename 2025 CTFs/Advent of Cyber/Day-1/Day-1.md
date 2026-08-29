@@ -25,34 +25,34 @@ First and foremost, we need to find out where we are in relation to the system. 
 
 Now it seems we have found an important file.. so let's run `cat` on `README.txt` and see what it says:
 
-![What you should see after outputting the content of the file](cat-screenshot.png)
+![What you should see after outputting the content of the file](images/cat-screenshot.png)
 
 
 It appears that we have to follow the trail left behind by McSkidy.. Since there is a `Guides` directory, we might as well check. Run `cd  Guides` to navigate the directory, then run `ls`.
 
 Oh? There's nothing there.. On the surface that is. We can see if McSkidy has left any hidden files by adding some _parameters_ to the `ls` command. Instead, try running `ls -al` and you should get the following output:
 
-![What you should see after running ls-al](ls-al-screenshot.png)
+![What you should see after running ls-al](images/ls-al-screenshot.png)
 
 Now we have found the _dotfile_ that McSkidy left behind! Dotfiles, as their name suggests, has a dot at the start of their name. This keeps them hidden from regular ls searches, and are good for hiding information/directories from the average user.
 
 Now, let's `cat` into this file and see what we can find:
 
-![What you should see after running cat on the dotfile](dotfile-cat.png)
+![What you should see after running cat on the dotfile](images/dotfile-cat.png)
 
 Looks like we have to make our way to `/var/log` and look for any failed password attempts! We can do this by using `grep "Failed Password" auth.log"` 
 
-![What you should see after running grep on the authentication log](grep-screenshot.png)
+![What you should see after running grep on the authentication log](images/grep-screenshot.png)
 
 So now we know that there was multiple failed login attempts, a strong indicator of an attack.
 
 Let's look for any suspicious files left on the system by using `find /home/socmas -name *egg*`
 
-![What you should find after searching for egg](eggstrike-screenshot.png)
+![What you should find after searching for egg](images/eggstrike-screenshot.png)
 
 Looks like we found a sh file. These files are bash files that contain scripts that will run when executed, similar to an executable on Windows. We can run `cat` on it to view the contents and the script.
 
-![The code stored inside eggstrike.sh](cat-eggstrike-screenshot.png)
+![The code stored inside eggstrike.sh](images/cat-eggstrike-screenshot.png)
 
 We can now dissect this script to understand how it works.
 
