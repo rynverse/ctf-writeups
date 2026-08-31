@@ -2,7 +2,7 @@
 
 ## Overview 
 
-Day 1 of TryHackMe's Advent of Cyber was a basic introduction to Linux via CLI and using grep to search files. ||Using these commands, you will search through the Linux filesystem to find traces left behind by Sir Carrotbane||
+Day 1 of TryHackMe's Advent of Cyber is a basic introduction to Linux via CLI and using grep to search files. Using these commands, you will search through the Linux filesystem to find traces left behind by Sir Carrotbane
 
 List of commands used:
 `echo [INPUT]` prints a given input to the terminal, good for debugging programs. 
