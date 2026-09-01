@@ -6,8 +6,7 @@ Day 1 of TryHackMe's Advent of Cyber is a basic introduction to Linux via CLI an
 
 List of commands used:
 - `echo [INPUT]` Prints a given input to the terminal, good for debugging programs. 
-- `ls [OPTION]` Lists all the files in the current directory
-- For more details about [OPTION] you can read the man7 page for ls [here](https://man7.org/linux/man-pages/man1/ls.1.html)
+- `ls [OPTION]` Lists all the files in the current directory. For more details about [OPTION] you can read the man7 page for ls [here](https://man7.org/linux/man-pages/man1/ls.1.html)
 - `cat [FILE]` Outputs the contents of a file
 - `cd [PATH]` Changes your current directory to a directory of your choosing
 - `grep "[SEARCHTERM]" [FILE]` Searches the given file for the searchterm, and returns any results found
