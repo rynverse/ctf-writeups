@@ -24,6 +24,8 @@ You should get the following result:
 
 ![The result of running ./server.py](images/py-script-activate.png)
 
+`127.0.0.1:8000` is the IP address you give if you want to send traffic from your computer, back to your computer. Port `8000` is usually used for local web development servers and testing web applications.
+
 And when we go to our website on `127.0.0.1:8000` we should see:
 
 ![The website hosted on 127.0.0.1:8000](images/fake-login-portal.png)
@@ -70,6 +72,8 @@ Here is an example:
 Now, return to your original terminal instance where you ran `./server.py` where (within 1-2 minutes) you should see their credentials pop up!
 
 To finish the final objective, we will need to go to `http://10.129.166.78` from within the AttackBox. The `Factory` user may have reused passwords with the credential we have just gained - so it's best to try that!
+
+Once you have completed that, you should be able to find the number of toys expected for delivery and finally complete Day 2 of TryHackMe's Advent of Cyber!
 
 
 

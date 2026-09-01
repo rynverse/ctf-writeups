@@ -5,13 +5,13 @@
 Day 1 of TryHackMe's Advent of Cyber is a basic introduction to Linux via CLI and using grep to search files. Using these commands, you will search through the Linux filesystem to find traces left behind by Sir Carrotbane
 
 List of commands used:
-`echo [INPUT]` prints a given input to the terminal, good for debugging programs. 
-`ls [OPTION]` lists all the files in the curret directory
-- For more details about [OPTION] you can read the man7 page for ls [https://man7.org/linux/man-pages/man1/ls.1.html](here)
-`cat [FILE]` outputs the contents of a file
-`cd [PATH]` changes your current directory to a directory of your choosing
-`grep "[SEARCHTERM]" [FILE]` Searches the given file for the searchterm, and returns any results found
-`find [DIRECTORY] -name [NAME]` Searches the directory for the given name and returns any files found
+- `echo [INPUT]` Prints a given input to the terminal, good for debugging programs. 
+- `ls [OPTION]` Lists all the files in the current directory
+- For more details about [OPTION] you can read the man7 page for ls [here](https://man7.org/linux/man-pages/man1/ls.1.html)
+- `cat [FILE]` Outputs the contents of a file
+- `cd [PATH]` Changes your current directory to a directory of your choosing
+- `grep "[SEARCHTERM]" [FILE]` Searches the given file for the searchterm, and returns any results found
+- `find [DIRECTORY] -name [NAME]` Searches the directory for the given name and returns any files found
 
 ## Guide
 
@@ -69,7 +69,9 @@ To complete the final objective, we must enter `root` (or Superuser, the same as
 
 We can shorten two commands into one. Instead of running `cd /root` and `cat .bash_history` seperately, we can run one single command `cd /root && cat .bash_history` where can find the flag that Sir Carrotbane has left!
 
+Running the above command reveals the flag left in `.bash_history`, allowing you to complete Day 1 of TryHackMe's Advent of Cyber!
 
+NOTE: No flags were included in this writeup to preserve the integrity of the challenge
 
 
 
