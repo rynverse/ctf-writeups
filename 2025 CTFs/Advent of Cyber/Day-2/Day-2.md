@@ -75,6 +75,11 @@ To finish the final objective, we will need to go to `http://10.129.166.78` from
 
 Once you have completed that, you should be able to find the number of toys expected for delivery and finally complete Day 2 of TryHackMe's Advent of Cyber!
 
+## Key Takeaways
+
+- Phishing can be a highly effective attack when combined with known info about the victim. In this case, we knew who they frequently contacted and were able to spoof (pretend) their email address.
+- Combined with the fact that passwords may have been reused, we were able to perform lateral movement across the network (gain access to more accounts)
+- As powerful as Phishing is, we must use given toolkits **responsibly** to ensure we are not breaking the law.
 
 
 

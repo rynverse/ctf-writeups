@@ -72,6 +72,12 @@ Running the above command reveals the flag left in `.bash_history`, allowing you
 
 NOTE: No flags were included in this writeup to preserve the integrity of the challenge
 
+## Key Takeaways
 
+The most important takeaways are as follows:
+- `cd` changes the directory you are in. This is important for navigating through a system without a GUI (Graphical User Interface)
+- `grep` can be used to search through logs **without** having to comb through it manually. It does this by searching for the term you give
+- `sudo` is a very powerful command, allowing you to do actions a regular user would not be able to
+- `.bash_history` is critical for forensic investigations, because it logs **every** command ran, you can identify potential breaches 
 
 
