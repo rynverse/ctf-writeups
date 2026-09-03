@@ -6,5 +6,5 @@ Welcome to my Advent of Cyber Directory!
 
 | Challenge | Write-Up | Difficulty | Tags |
 | ------------- | ------------- | ------------- | ------------- |
-| Day 1 - Linux CLI | [🔗](2025 CTFs/Advent of Cyber/Day-1/Day-1.md) | 4/10 | `Linux` `CLI` |
-| Day 2 - SET & Phishing | [🔗](2025 CTFs/Advent of Cyber/Day-2/Day-2.md) | 4/10 | `Phishing` `Social Engineering` `Social Engineering Toolkit` |
+| Day 1 - Linux CLI | [Link](2025 CTFs/Advent of Cyber/Day-1/Day-1.md) | 4/10 | `Linux` `CLI` |
+| Day 2 - SET & Phishing | [Link](2025 CTFs/Advent of Cyber/Day-2/Day-2.md) | 4/10 | `Phishing` `Social Engineering` `Social Engineering Toolkit` |
