@@ -71,6 +71,11 @@ As I have now changed the password to root we can SSH into the machine like it i
 
 Successful connection! I completed the challenge by changing the password to `root` and then SSHing into the machine.
 
+## Overall Thoughts/Conclusion
+
+This was a fun challenge for a Hackathon, as this was not guided I had to figure out how to complete the challenge with little help. I learnt how to use the `msfconsole` to search and use exploits - using those to gain root privilege in an insecure isolated system. This will be very useful in the future in understanding how exploits are used in the wild, as knowing how they are executed can help me understand how to prevent them. I also learnt how to setup a Virtualbox machine with Kali Linux and Metasploitable, and networked them both together - this is an important learning experience for me because it enables me to test out my own exploits on my own machines without affecting other devices or putting myself at risk in the future!
+
+
 ## Steps
 1. Ran `ifconfig` and observed the `eth0` inet address, because this is on a Virtual Machine, it should only show `127.0.0.1` (itself) and the network IP.
 2. Ran the command `nmap -sP 10.0.2.0/24` to scan for connected devices to the network.
