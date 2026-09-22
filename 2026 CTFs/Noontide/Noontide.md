@@ -25,9 +25,22 @@ Network IP range is `10.0.2.0/24` (Kali is `10.0.2.5`)
 
 2. Ran the command `nmap -sP 10.0.2.0/24` to scan for connected devices to the network.
 
+For further explanation of the `/24` at the end of the IP Address, see Section 3 of my [Snort IDS Tutorial](https://github.com/rynverse/snort-tutorial) 
+
+Now that we know what devices are on the network, we would typically need to check each device, but because our devices are the only ones on the network - we know which to target.
+
+Now we need to find applications we can exploit using `nmap -sV 10.0.2.4` (the IP address of the Metasploitable), as this command will search for applications on that IP address.
+
+3. Ran the command `nmap -sV 10.0.2.4`
+
+We now know the applications running and using ports on the machine, so we can now use `msfconsole` to search for exploits:
+
 ## Steps
 1. Ran `ifconfig` and observed the `eth0` inet address, because this is on a Virtual Machine, it should only show `127.0.0.1` (itself) and the network IP.
 2. Ran the command `nmap -sP 10.0.2.0/24` to scan for connected devices to the network.
+3. Ran the command `nmap -sV 10.0.2.4`
+
+
 
 
 
