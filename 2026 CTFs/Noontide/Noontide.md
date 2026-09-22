@@ -35,11 +35,21 @@ Now we need to find applications we can exploit using `nmap -sV 10.0.2.4` (the I
 
 We now know the applications running and using ports on the machine, so we can now use `msfconsole` to search for exploits:
 
+4. Ran command `sudo service postgresql start`
+5. Ran command `sudo ss -ant`
+6. Ran Command `sudo msfdb init`
+7. Ran command `msfconsole`
+
+
+
 ## Steps
 1. Ran `ifconfig` and observed the `eth0` inet address, because this is on a Virtual Machine, it should only show `127.0.0.1` (itself) and the network IP.
 2. Ran the command `nmap -sP 10.0.2.0/24` to scan for connected devices to the network.
 3. Ran the command `nmap -sV 10.0.2.4`
-
+4. Ran command `sudo service postgresql start`
+5. Ran command `sudo ss -ant`
+6. Ran Command `sudo msfdb init`
+7. Ran command `msfconsole`
 
 
 
