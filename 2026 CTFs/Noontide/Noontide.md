@@ -33,12 +33,24 @@ Now we need to find applications we can exploit using `nmap -sV 10.0.2.4` (the I
 
 3. Ran the command `nmap -sV 10.0.2.4`
 
-We now know the applications running and using ports on the machine, so we can now use `msfconsole` to search for exploits:
+We now know the applications running and using ports on the machine, so we can now use `msfconsole` to search for exploits by using `search [application]`
+4. Ran the commands:
+`sudo service postgresql start`
+`sudo ss -ant`
+`sudo msfdb init`
+`msfconsole`
 
-4. Ran command `sudo service postgresql start`
-5. Ran command `sudo ss -ant`
-6. Ran Command `sudo msfdb init`
-7. Ran command `msfconsole`
+Now we need to find the vulnerabilities now that `msfconsole` is set up, 
+- My initial CVE Candidate was CVE-2009-3843, 4819, 4188
+This used `RHOSTS`, `RPORT`, and `PATH` - but I tried this and was unsuccessful in achieving the objective of the challenge.
+Instead, I will use the `distccd` Backdoor which uses two variables `LHOST`, and `RHOST` (Local Host/Remote Host)
+
+8. Ran the commands:
+`set LHOST 10.0.2.5`
+`set RHOST 10.0.2.4`
+
+Now that we have set the variables, we need to choose a payload by using the command `show payloads`
+
 
 
 
@@ -50,6 +62,8 @@ We now know the applications running and using ports on the machine, so we can n
 5. Ran command `sudo ss -ant`
 6. Ran Command `sudo msfdb init`
 7. Ran command `msfconsole`
+8. Ran command `set LHOST 10.0.2.5`
+9. Ran Command `set RHOST 10.0.2.4`
 
 
 
