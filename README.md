@@ -25,5 +25,5 @@ For easy navigation, I have also included a table with links to each write-up as
 | Challenge | Write-Up | Difficulty | Tags |
 | ------------- | ------------- | ------------- | ------------- |
 | [TryHackMe Advent of Cyber 2025](https://tryhackme.com/adventofcyber25)  | [Write-Ups](/2025%20CTFs/Advent%20of%20Cyber/AoC_README.md)  | 5/10  | Multiple, see `AoC_README.md` (follow write-up link) |
-| [TryHackMe OhSINT](https://tryhackme.com/room/ohsint)  | [Here](/2025%20CTFs/OhSINT/OhSINT.md) | 6/10  | `OSINT`  |
+| [TryHackMe OhSINT](https://tryhackme.com/room/ohsint)  | [Here](/2026%20CTFs/OhSINT/OhSINT.md) | 6/10  | `OSINT`  |
 | 2025 Hackathon - Noontide | [Here](/2026%20CTFs/Noontide/Noontide.md)  | 7/10  | `Reverse Shell`  |
