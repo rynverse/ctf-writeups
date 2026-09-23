@@ -43,9 +43,9 @@ A further scroll down reveals their GitHub too:
 <p align="center">
     Their Github Page:
     <br>
-    <img src ="./images/owoodflint-github" alt="An image showing OWoodflint's Github in the search results" width="1000" height="500"/>
+    <img src ="./images/owoodflint-github.png" alt="An image showing OWoodflint's Github in the search results" width="1000" height="500"/>
     <br>
-    <img src ="./images/owoodflint-github-page" alt="An image showing OWoodflint's Github page" width="500" height="500"/>
+    <img src ="./images/owoodflint-github-page.png" alt="An image showing OWoodflint's Github page" width="500" height="500"/>
 </p>
 
 And now we can answer questions 4 and 5 from their Github because it contains:
@@ -60,7 +60,7 @@ __Unfortunately past this point I was stumped on where I could find their passwo
 I was lead to the source code of the page, where on lines 347-365 I found a weird all white p-tag (see below):
 
 <p align="center">
-    <img src ="./images/owoodflint-hidden" alt="An image showing the hidden p-tag in the source code" width="750" height="500"/>
+    <img src ="./images/owoodflint-hidden.png" alt="An image showing the hidden p-tag in the source code" width="750" height="500"/>
 </p>
 
 As it was hidden in the source code, I can only assume it was placed there to not be found. So I tried entering the hidden "pennydropper" text and turns out that was the answer to the final question!
