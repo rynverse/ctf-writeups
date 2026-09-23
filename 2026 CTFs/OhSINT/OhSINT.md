@@ -22,12 +22,14 @@ In the "copyright" section specifically we see the name "OWoodflint". Aliases on
 
 <p align="center">
     Their Twitter pages:
+    <br>
     <img src ="./images/owoodflint-twitter.png" alt="An image showing OWoodflint's Twitter in the search results" width="1000" height="500"/>
     <br>
     <img src ="./images/owoodflint-twitter-page.png" alt="An image showing OWoodflint's Twitter page" width="500" height="500"/>
     <br>
     <br>
     Their Wordpress blog:
+    <br>
     <img src ="./images/owoodflint-wordpress.png" alt="An image showing OWoodflint's Wordpress in the search results" width="500" height="500"/>
     <br>
     <img src ="./images/owoodflint-wordpress-page.png" alt="An image showing OWoodflint's Wordpress page" width="500" height="500"/>
