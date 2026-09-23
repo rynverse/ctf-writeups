@@ -1,1 +1,0 @@
-# OhSINT TryHackMe Room Write Up 
