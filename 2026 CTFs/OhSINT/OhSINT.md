@@ -54,3 +54,13 @@ And now we can answer questions 4 and 5 from their Github because it contains:
 
 On their Twitter, they also posted their BSSID - we can use a service like [WiGLE](https://wigle.net/) to find the SSID of the network they are connected to.
 Doing a search on WiGLE shows us their SSID and Location, allowing us to answer questions 2 and 3.
+
+__Unfortunately past this point I was stumped on where I could find their password. So I used a hint from TryHackMe.__
+
+I was lead to the source code of the page, where on lines 347-365 I found a weird all white p-tag (see below):
+
+<p align="center">
+    <img src ="./images/owoodflint-hidden" alt="An image showing the hidden p-tag in the source code" width="750" height="500"/>
+</p>
+
+As it was hidden in the source code, I can only assume it was placed there to not be found. So I tried entering the hidden "pennydropper" text and turns out that was the answer to the final question!
