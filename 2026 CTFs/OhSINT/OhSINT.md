@@ -25,10 +25,8 @@ In the "copyright" section specifically we see the name "OWoodflint". Aliases on
     <img src ="./images/owoodflint-twitter.png" alt="An image showing OWoodflint's Twitter in the search results" width="1000" height="500"/>
     <br>
     <img src ="./images/owoodflint-twitter-page.png" alt="An image showing OWoodflint's Twitter page" width="500" height="500"/>
-</p>
-
-
-<p align="center">
+    <br>
+    <br>
     Their Wordpress blog:
     <img src ="./images/owoodflint-wordpress.png" alt="An image showing OWoodflint's Wordpress in the search results" width="500" height="500"/>
     <br>
