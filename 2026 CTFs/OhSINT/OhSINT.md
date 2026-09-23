@@ -64,3 +64,6 @@ I was lead to the source code of the page, where on lines 347-365 I found a weir
 </p>
 
 As it was hidden in the source code, I can only assume it was placed there to not be found. So I tried entering the hidden "pennydropper" text and turns out that was the answer to the final question!
+
+## Overall thoughts/Conclusion
+This was a fun yet scary look into the world of OSINT. The amount of information that can be found by just using software like `exiftool` and `WiGLE` is scary when you realise that everyone puts most of their lives online for anyone to see. Although I learned how to use these tools ethically, it serves as a reminder for everyone to be careful of what they put online - as anyone can look through it and find more information about you than you think. Using `exiftool` to find image metadata and combining it with a known BSSID using `WiGLE` can serve up a large amount of information - so as mentioned before it is best to be careful about what you put online.
